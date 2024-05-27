@@ -5,6 +5,10 @@
 #header .all-menu{ position: absolute; right: 20px; top: 11px; }
 #header .all-menu i{font-size: 30px;}
 
+.xi-bars:before {
+    content: "\e91c";
+}
+
 #nav{ position: absolute; right: -100%; top: 51px; z-index: 100; width:100%; background: rgba(0,0,0,1);transition:0.3s;}
 #nav.on{ right:0 }
 
