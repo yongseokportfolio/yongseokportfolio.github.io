@@ -1,0 +1,133 @@
+/* introduce.html */
+.introduce .summary {width:100%; text-align:center; }
+.introduce .summary h3 {font-size:25px; font-weight:500; margin-top:62px; margin-bottom:20px;}
+.introduce .summary h3::after {content:""; display:block; width:32px; height:2px; background: #898989; position: relative; left:50%; transform:translateX(-50%); margin-top:20px;}
+.introduce .summary strong {font-size:20px; color:#424242;}
+.introduce .summary p {margin-top:41px; margin-bottom:64px;}
+
+.introduce .mid-visual {width:100%; height:314px; background-image: url(../images/content/mid_visual_bg.png); background-repeat: no-repeat; background-position: 50% 85%; background-size: cover;}
+.introduce .mid-visual h3 {font-size:25px; color:snow; text-align:center; padding-top:126px;}  
+
+.introduce .mission {width:100%; text-align:center;}
+.introduce .mission h3 {font-size:25px; font-weight:500; margin-top:64px; margin-bottom:20px;}
+.introduce .mission h3::after {content:""; display:block; width:32px; height:2px; background: #898989; position: relative; left:50%; transform:translateX(-50%); margin-top:20px;}
+.introduce .mission p {}
+
+.introduce .core-value { width:100%; text-align:center; background-image: url(../images/content/value_bar.png); background-repeat: no-repeat; background-position: 50% 25%; }
+.introduce .core-value .inner {}
+.introduce .core-value .inner h3 {font-size:25px; font-weight:500; margin-top:64px; margin-bottom:20px;}
+.introduce .core-value .inner h3::after {content:""; display:block; width:32px; height:2px; background: #898989; position: relative; left:50%; transform:translateX(-50%); margin-top:20px;}
+.introduce .core-value .inner .icon {margin-top:150px; margin-bottom:83px;}
+.introduce .core-value .inner .icon li {float:left; width:380px; padding-top:140px; margin-right:20px; background-repeat: no-repeat; background-position: 50% 15%;  }
+.introduce .core-value .inner .icon li:last-child {margin-right:0;}
+.introduce .core-value .inner .icon li:nth-child(1) {background-image: url(../images/content/value_icon1.png);}
+.introduce .core-value .inner .icon li:nth-child(2) {background-image: url(../images/content/value_icon2.png);}
+.introduce .core-value .inner .icon li:nth-child(3) {background-image: url(../images/content/value_icon3.png);}
+.introduce .core-value .inner .icon li strong {display:block; font-size:16px; font-weight:500; }
+.introduce .core-value .inner .icon li em {display:block; font-size:16px; font-weight:500; margin-top:5px; margin-bottom:20px;}
+.introduce .core-value .inner .icon li p {font-size:16px; line-height:21px;}
+
+/* visit_guide.html */
+.visit .guid {}
+.visit .guid .guid-icon {margin:126px 0;}
+.visit .guid .guid-icon li {width:280px; height:336px; float:left; margin-right:20px; border-right:3px solid #e1e1e1; border-bottom:3px solid #e1e1e1;box-sizing:border-box; text-align:center; background-repeat: no-repeat; }
+.visit .guid .guid-icon li:last-child {margin-right:0; border:10px solid #302c2d; padding:74px 35px; text-align:left;}
+.visit .guid .guid-icon li:nth-child(1) {background-image: url(../images/content/guid_icon1.png); background-position: 50% 66px;}
+.visit .guid .guid-icon li:nth-child(2) {background-image: url(../images/content/guid_icon2.png);background-position: 50% 69px;}
+.visit .guid .guid-icon li:nth-child(3) {background-image: url(../images/content/guid_icon3.png);background-position: 50% 82px;}
+.visit .guid .guid-icon li strong {display:block; font-size:16px; color:#333; padding-top:189px; margin-bottom:14px;}
+.visit .guid .guid-icon li em {display:block; line-height:1.5;}
+.visit .guid .guid-icon li h3 {font-size:25px; font-weight:500; margin-bottom:25px; }
+.visit .guid .guid-icon li i {font-size:45px; color:#333;}
+
+.visit .fare {}
+.visit .fare ul{}
+.visit .fare ul li {width:1349px;  overflow:hidden; float:right;background: url(../images/content/fare_bg.png) no-repeat 280px 0; }
+.visit .fare ul li:nth-child(2) {width:1369px; margin:84px 0; float:left; background-position: 0 0;}
+.visit .fare ul li .fare-text {width:280px; height:295px;  float:left; border-bottom:3px solid #898989; box-sizing: border-box;}
+.visit .fare ul li:nth-child(2) .fare-text {float:right; margin-left:20px;}
+.visit .fare ul li .fare-text strong {display:block; font-size:16px; font-weight:500; color:#333; margin-top:23px; margin-bottom:20px;}
+.visit .fare ul li .fare-text strong::before {content:""; display:block; width:59px; height:3px; background: #898989; margin-bottom:20px;}
+.visit .fare ul li .fare-text p {line-height:1.5;}
+
+.visit .fare ul li .fare-table {width: 680px; height:295px; float:right; margin-right:370px; }
+.visit .fare ul li:nth-child(2) .fare-table {float:left; margin-left:370px; margin-right:0; }
+.visit .fare ul li .fare-table h3 {color:snow; margin-top:16px; font-size:25px; font-weight:500;}
+/* .visit .fare ul li:nth-child(2) .fare-table h3 {margin-left:485px;} */
+.visit .fare ul li .fare-table h3::before {content:""; display:block; width:27px; height:3px; background: snow; margin-bottom:15px;}
+.visit .fare ul li .fare-table .table {height:232px; background: #fff; margin-top:15px; padding-top:50px;}
+.visit .fare ul li .fare-table .table table {text-align:center;  }
+.visit .fare ul li .fare-table .table table .permanent {width:25%}
+.visit .fare ul li .fare-table .table table .nomal {width:25%}
+.visit .fare ul li .fare-table .table table .sale {width:25%}
+.visit .fare ul li .fare-table .table table .digital {}
+.visit .fare ul li .fare-table .table table .dosente {}
+.visit .fare ul li .fare-table .table table .subject {width:50%}
+.visit .fare ul li .fare-table .table table thead tr {}
+.visit .fare ul li:last-child .fare-table .table table thead tr th, .visit .fare ul li:last-child .fare-table .table table thead td {padding:15px;}
+.visit .fare ul li .fare-table .table table thead tr th, .visit .fare ul li .fare-table .table table thead td {border-right:1px solid #333; padding:25px;vertical-align: middle;}
+.visit .fare ul li .fare-table .table table thead tr th:last-child, .visit .fare ul li .fare-table .table table thead td:last-child {border-right:none; }
+.visit .fare ul li .fare-table .table table thead tr th {font-size:18px; font-weight:500;color:#333; }
+.visit .fare ul li .fare-table .table table thead tr td {font-size:16px; line-height:1.5;}
+
+.visit .notice {margin:126px 0; width:100%; height:610px; text-align:center; background-image: url(../images/content/notice_bg.png); background-repeat: no-repeat; background-position: 50% 50%; background-size: cover; }
+.visit .notice h3 {font-size:25px; font-weight:500; color: snow; padding-top:44px;}
+.visit .notice ul {position: relative; left:55%; margin-top:50px; padding:30px 50px; width:500px; box-sizing: border-box;  background-image: url(../images/content/notice_list.png); background-repeat: no-repeat; background-position: 25px 35px;}
+.visit .notice ul li {}
+.visit .notice ul li p {line-height:1.5; font-size:16px; color:snow; margin-bottom:20px; text-align:left;}
+
+/* building.html */
+.building .submenu {margin-bottom:84px;}
+.building .submenu li {float:left; text-align:center; position: relative;}
+.building .submenu li:nth-child(1) {border-bottom:1px solid #f47e58;  }
+.building .submenu li:nth-child(2)::after {content:""; display:block; width:390px; height:1px; background: #c1c1c1;}
+.building .submenu li:nth-child(3)::after {content:""; display:block; width:390px; height:1px; background: #c1c1c1;}
+.building .submenu li:nth-child(2):hover::after{background: #f47e58;}
+.building .submenu li:nth-child(3):hover::after{background: #f47e58;}
+.building .submenu li a {display:block; width:390px; height:63px; line-height:63px; font-size:20px; font-weight:500; color:#c1c1c1; }
+.building .submenu li a:hover {color:#f47e58;}
+.building .submenu li:nth-child(1) a {color:#f47e58; }
+
+.building .museum1 {}
+.building .museum1 img {float:left; margin-right:120px;}
+.building .museum1 .text {float:left;}
+.building .museum1 .text strong {display:block; font-size:18px; font-weight:500; color:333; margin-top:104px; margin-bottom:20px;}
+.building .museum1 .text p {}
+.building .museum1 .text p::after {content:""; display:block; width:180px; height:2px; background: #898989; margin:20px 0;}
+.building .museum1 .text ul {}
+.building .museum1 .text ul li {margin-bottom:5px;}
+
+.building .botta {margin:84px 0;}
+.building .botta blockquote {font-size:25px; font-weight:500; color:#333; text-align:center; float:left; margin-top:190px; margin-left:80px; line-height:1.2;}
+.building .botta .picture {float:right; margin-right:100px; position: relative;}
+.building .botta .picture img {}
+.building .botta .picture .picture-text {position: absolute; left:0; bottom:0; width:325px; height:148px; background: #fff;}
+.building .botta .picture .picture-text span {display:block; font-size:14px; color:#424242; margin-top:20px;}
+.building .botta .picture .picture-text strong {display:block; font-size:25px; font-weight:500; color:#333; margin-top:20px; margin-bottom:10px;}
+.building .botta .picture .picture-text em {display:block; font-size:16px; font-weight:500; color:#333;}
+
+.building .since {}
+.building .since span {display:block; font-size:14px; color:#424242; }
+.building .since h3 {font-size:25px; font-weight:500; margin:42px 0;}
+.building .since .lnr {font-size:40px; display:inline-block; position: relative; top:-380px;}
+.building .since .since-text {display:inline-block; width:980px; height:421px; margin-left:60px; padding:9px 0; box-sizing: border-box; border-top:1px solid #898989; border-bottom:1px solid #898989;}
+.building .since .since-text p {margin-bottom:21px;}
+
+.building .tour {margin:84px 0 146px 0; position: relative;}
+.building .tour .tour-text {width:616px; height:652px; background: #f7f7f7; position: absolute;left:0; top:63px; padding-top:168px; padding-left:100px; box-sizing: border-box; z-index: 100;}
+.building .tour .tour-text h3 {font-size:25px; font-weight:500;}
+.building .tour .tour-text strong {display:block; font-size:18px; color:#333; font-weight:500; margin:42px 0;}
+.building .tour .tour-text p {}
+.building .tour .tour-text .tour-btn {position: absolute; left:100px; top:500px;}
+.building .tour .tour-text .tour-btn li {display:inline-block; margin-right:52px;}
+.building .tour .tour-text .tour-btn li i {font-size: 20px;}
+.building .tour .tour-text .tour-btn li:hover i {color:#f47e58;}
+.building .tour .tour-text .tour-btn li.left-btn {}
+.building .tour .tour-text .tour-btn li.right-btn {}
+.building .tour .tour-img {width:616px; height:652px; position: relative; overflow: hidden; left:564px;}
+.building .tour .tour-img ul {}
+.building .tour .tour-img ul li {width:616px; height:652px; position: absolute; left:0; top: 0; background-repeat: no-repeat; background-position: 0 0; background-size: cover;}
+.building .tour .tour-img ul li:nth-child(1) {background-image: url(../images/content/tour_img1.png);}
+.building .tour .tour-img ul li:nth-child(2) {background-image: url();}
+.building .tour .tour-img ul li:nth-child(3) {background-image: url();}
+.building .tour .tour-img ul li:nth-child(4) {background-image: url();}

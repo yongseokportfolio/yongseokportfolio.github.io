@@ -1,0 +1,102 @@
+/* mainVisual */
+#mainVisual {width:100%; height:651px; position: relative; margin-top:80px; }
+#mainVisual .main-banner {width:100%; height:651px; position: relative; overflow: hidden;}
+#mainVisual .main-banner li {width:100%; height:651px; position: absolute; left: 100%; top: 0; background-repeat: no-repeat; background-position: 0 0;  background-size: cover;}
+#mainVisual .main-banner li:nth-child(1) {background-image: url(../images/main/main_visual1.png); left:0;}
+#mainVisual .main-banner li:nth-child(2) {background-image: url(../images/main/main_visual2.png);}
+#mainVisual .main-banner li:nth-child(3) {background-image: url(../images/main/main_visual3.png);}
+
+#mainVisual .main-more  {width:732px; height:86px; position: absolute; left:0; bottom:0; background: rgba(127,127,127,0.8);}
+#mainVisual .main-more p {position: absolute; right:40px; top:36px; transform: translateX(); }
+#mainVisual .main-more p a {color:snow; font-size:16px; padding:30px; box-sizing: border-box;}
+#mainVisual .main-more p a .lnr { margin-left:8px;  font-size:16px;}
+
+#mainVisual .main-text {position: absolute; top:230px; left:379px;}
+#mainVisual .main-text strong {font-size:30px; font-weight:500; color:snow; line-height:1.1;}
+#mainVisual .main-text p {font-size:25px; font-weight:500; color:snow; margin-top:21px; line-height:1.3;}
+
+#mainVisual .btn-wrap {}
+#mainVisual .btn-wrap li {position: absolute; top: 50%; }
+#mainVisual .btn-wrap li a {display: block; width: 50px; height: 50px; color:snow; line-height: 50px; text-align: center; font-size: 40px;}
+#mainVisual .btn-wrap li.prev  {left:150px;}
+#mainVisual .btn-wrap li.next  {right:150px;}
+
+
+/* exhibition */
+.main-content .exhibition {margin:63px 0;}
+.main-content .exhibition h2 {font-size:25px; font-weight:500; text-align:center;}
+.main-content .exhibition .display {}
+.main-content .exhibition .display li {float:left; margin-right:20px; margin-top:42px; }
+.main-content .exhibition .display li:last-child {margin-right:0px; }
+.main-content .exhibition .display li a {}
+.main-content .exhibition .display li a img {}
+.main-content .exhibition .display li h3 {font-size:16px; margin-top:21px; margin-bottom:5px;}
+.main-content .exhibition .display li em {}
+.main-content .exhibition .display li .like {margin-top:21px;}
+.main-content .exhibition .display li .like a {display:block; width:47px; height:22px; border: 1px solid #e1e1e1; text-align:center; border-radius: 2px;}
+.main-content .exhibition .display li .like a i {color:#666; font-size:12px;}
+.main-content .exhibition .display li .like a p {display:inline-block; color:#666; font-size:12px;}
+
+/* schedule */
+.main-content .schedule {width:100%; height:211px; background-image: url(../images/main/schedule.png); background-repeat: no-repeat; background-position: 50% 50%;}
+.main-content .schedule h2 {color:snow; font-size:25px; font-weight:100; line-height:1.1; float:left; margin-top:70px; margin-left:29px;}
+.main-content .schedule h2::after {content:""; display:block; width:120px; height:3px; background:#898989; position: absolute; left:135px; top:83px;}
+.main-content .schedule ul {float:right; margin-top:70px; margin-right:58px;}
+.main-content .schedule ul li {float:left; margin-right:108px;}
+.main-content .schedule ul li:nth-child(1) {margin-right:84px;}
+.main-content .schedule ul li:last-child {margin-right:0px;}
+.main-content .schedule ul li strong {color:snow; display:block; font-size:25px; font-weight:100; margin-bottom:21px;}
+.main-content .schedule ul li em {color:snow; font-size:16px; font-weight:100;}
+
+/* collection */
+.main-content .collection {margin:63px 0;}
+.main-content .collection h2 {font-size:25px; font-weight:500; text-align:center; margin-bottom:42px;}
+.main-content .collection ul {}
+.main-content .collection ul li {float:left; position: relative; margin-right:47px;}
+.main-content .collection ul li:last-child {margin-right:0;}
+.main-content .collection ul li img {}
+.main-content .collection ul li .opacity {position: absolute; left:0; bottom:0; width:566px; height:190px; background: rgba(0,0,0,0.6); padding:40px 67px; box-sizing: border-box;}
+.main-content .collection ul li .opacity h3 {font-size:25px; color:snow; margin-bottom:45px;}
+.main-content .collection ul li .opacity p {}
+.main-content .collection ul li .opacity p a {display:block; width:124px; height:43px; border:1px solid snow; border-radius: 5px; color:snow; text-align: center; line-height:43px; font-size:16px;}
+.main-content .collection ul li .opacity p a span {display:inline-block; color:snow;}
+
+/* education */
+.main-content .education {background:url(../images/main/education_bg1.png) 0 0 no-repeat; background-size: cover; height:610px;}
+.main-content .education .winter {padding-top:84px; box-sizing: border-box;}
+.main-content .education .winter .text {float:left; margin-top:10px; }
+.main-content .education .winter .text h2 {color:snow; font-size:25px; font-weight:500; margin-bottom:42px;}
+.main-content .education .winter .text strong {color:snow; display:block; font-size:25px; font-weight:100; margin-bottom:21px;}
+.main-content .education .winter .text em {color:snow;display:block; font-size:16px; margin-bottom:21px;}
+.main-content .education .winter .text p {color:snow;}
+.main-content .education .winter .img {float:right; }
+.main-content .education .winter .img img {float:left; }
+.main-content .education .winter .img ul {float:right; height:440px; margin-left:20px; border-bottom:3px solid snow;}
+.main-content .education .winter .img ul li {float:left; margin-right:20px;}
+.main-content .education .winter .img ul li:last-child {margin-right:0px;}
+.main-content .education .winter .img ul li img {margin-bottom:21px;}
+.main-content .education .winter .img ul li em {color:snow;display:block; font-size:16px; margin-bottom:21px;}
+.main-content .education .winter .img ul li em::after {content:""; display:block; width:24px; height:2px; background: snow;margin-top:21px;}
+.main-content .education .winter .img ul li p {color:snow; line-height:1.5;}
+
+.main-content .education .kids2, .main-content .education .kids3 {display:none;}
+
+.main-content .education .btn-wrap {}
+.main-content .education .btn-wrap li {position: absolute; left:0; top:97px;}
+.main-content .education .btn-wrap li a {display: block; width: 30px; height: 30px; color:snow; line-height: 30px; text-align: center; font-size: 30px;}
+.main-content .education .btn-wrap li.prev {left:150px;}
+.main-content .education .btn-wrap li.next {left:200px;}
+
+/* new-faq */
+.main-content .new-faq {margin:105px 0;}
+.main-content .new-faq .notice {width:530px;  position: relative;}
+.main-content .new-faq .new {float:left;}
+.main-content .new-faq .faq {float:right;}
+.main-content .new-faq .notice h4 {font-size:18px; font-weight:500; }
+.main-content .new-faq .notice h4::after {content:""; display:block; width:530px; height:2px; background: #898989; margin-top:21px;}
+.main-content .new-faq .notice ul {}
+.main-content .new-faq .notice ul li {margin-top:21px; padding-bottom:21px;}
+.main-content .new-faq .notice ul li strong {color:#424242; float:left; }
+.main-content .new-faq .notice ul li span {font-size:14px; font-weight:300; float:right;}
+.main-content .new-faq .notice .more {position: absolute; right:15px; top:0;}
+.main-content .new-faq .notice .more a {font-size:20px;}

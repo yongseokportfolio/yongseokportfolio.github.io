@@ -1,0 +1,111 @@
+#subVisual {height: 316px; position: relative; overflow:hidden;}
+#subVisual img {width: 100%;}
+#subVisual h2 {position: absolute; left: 8.333%; top:230px; font-size: 20px; font-weight: 600; color:#fff;}
+
+/* introduce.html */
+/* summary */
+.introduce .summary {}
+.introduce .summary h3 {font-size: 20px; font-weight: 600; margin-left:5.555%; color:#333; margin-top:52px;}
+.introduce .summary h3::after {content:""; display:block; clear:both; width: 12.722%; height: 2px; background: #898989; margin-bottom:23px; margin-top:5px;}
+.introduce .summary strong {display:block; margin-left:5.555%; font-size: 14px; color:#424242; line-height: 21px; margin-bottom:20px;}
+.introduce .summary p {margin-left:5.555%; color:#666; font-size: 13px; margin-bottom:42px;}
+
+/* midvisual */
+.introduce .mid-visual {height:189px; position: relative; }
+.introduce .mid-visual img {width: 100%;}
+.introduce .mid-visual h3 {width: 100%; position: absolute; left: 50%; top: 50%; transform:translate(-50%,-50%); font-size: 18px; line-height: 25.5px; text-align:center; color:#fff;}
+
+/* mission */
+.introduce .mission {text-align:center;}
+.introduce .mission h3 {font-size: 20px; font-weight: 600; color:#333; margin-top:42px;}
+.introduce .mission h3::after {content:""; display:block; clear:both; width: 12.722%; height: 2px; background: #898989; margin-bottom:23px; position: relative; left: 50%; transform:translateX(-50%); margin-top:5px;}
+.introduce .mission p {color:#666; font-size: 14px; margin-bottom:21px;}
+
+/* core-value */
+.introduce .core-value {margin-left:5.555%;}
+.introduce .core-value h3 {margin-top:42px; font-size: 20px; color:#333; font-weight: 600;}
+.introduce .core-value ul {}
+.introduce .core-value ul li {margin:21px 0; overflow:hidden;}
+.introduce .core-value ul li img {width: 10.277%; float:left;}
+.introduce .core-value ul li .text {float:left; margin-left:5.277%;}
+.introduce .core-value ul li .text h4 {font-size: 14px; font-weight: 600; color:#333;}
+.introduce .core-value ul li .text p {font-size: 13px; color:#666; line-height: 20px;}
+
+/* visit */
+/* guide-box */
+.visit .guid-box {margin:42px 0;}
+.visit .guid-box .guid {overflow: hidden;}
+.visit .guid-box .guid .swiper-wrapper {}
+.visit .guid-box .guid .swiper-wrapper .swiper-slide {height:169px; text-align:center; border-right:1px solid rgb(167, 167, 167); border-bottom:1px solid rgb(167, 167, 167);}
+.visit .guid-box .guid .swiper-wrapper .swiper-slide:nth-child(1) {border:4px solid #333; text-align:left;}
+.visit .guid-box .guid .swiper-wrapper .swiper-slide h3 {margin-top:30px; margin-left:15px; font-size: 20px; font-weight: 600; }
+.visit .guid-box .guid .swiper-wrapper .swiper-slide i {margin-left:15px; font-size: 20px;}
+.visit .guid-box .guid .swiper-wrapper .swiper-slide img {width: 42.142%; margin-top:23px;}
+.visit .guid-box .guid .swiper-wrapper .swiper-slide:nth-child(4) img {margin-top:37px; width:50%;}
+.visit .guid-box .guid .swiper-wrapper .swiper-slide strong {display:block; font-size: 14px; margin:5px 0;}
+.visit .guid-box .guid .swiper-wrapper .swiper-slide em {display:block; font-size: 13px; color:#666; line-height: 15px;}
+
+/* fare */
+.visit .fare {}
+.visit .fare .fare-table {background: #333;}
+.visit .fare .fare-table h3 {color:#fff; margin-left:5.555%; font-size: 20px; font-weight: 600; padding-top:10px; margin-bottom:23px;}
+.visit .fare .fare-table h3::before {content:""; display:block; width:27px; height:2px; background: #fff; margin-bottom:3px;}
+.visit .fare .fare-table .table {background: #fff; width: 91.666%; margin:auto; }
+.visit .fare .fare-table .table table .subject {width: 50%;}
+.visit .fare .fare-table .table table {text-align:center;}
+.visit .fare .fare-table .table table thead {}
+.visit .fare .fare-table .table table thead tr {height: 29px;}
+.visit .fare .fare-table .table table thead tr th {border-right:1px solid #333; vertical-align:middle; font-size: 14px; font-weight: 600; }
+.visit .fare .fare-table .table table thead tr td {border-right:1px solid #333; font-size: 13px;}
+.visit .fare .fare-table .table table thead tr th:last-child, .fare .fare-table .table table thead tr td:last-child { border-right:none;}
+.visit .fare .fare-text {margin-top:24px; margin-bottom:42px;}
+.visit .fare .fare-text strong {margin-left:5.555%; display:block; font-size: 14px;font-weight: 600;}
+.visit .fare .fare-text p {margin-left: 5.555%; font-size: 13px; color:#666;}
+
+/* notice */
+.visit .notice {height: 378px; background: url(../images/content/m-notice-bg.jpg) 0 0 no-repeat;}
+.visit .notice h3 {font-size: 20px; font-weight: 600; color:#fff; margin-left:15.833%; padding-top:21px;}
+.visit .notice p {font-size: 13px; font-weight: 600; color:#fff; line-height: 20px; margin-left:15.833%; margin-top:21px;}
+
+/* building */
+/* museum1 */
+.building {}
+.building .tab {}
+.building .tab .tab-menu {}
+.building .tab .tab-menu li {float:left; text-align:center; width: 33.333%; font-size: 14px; font-weight: 600; height: 40px; border-bottom:1px solid #666; line-height: 40px;}
+.building .tab .tab-menu li:nth-child(1) {border-bottom:1px solid #f47e58; color:#f47e58;}
+.building .tab .tab-museum1 {margin-top:34px;}
+.building .tab .tab-museum1 .museum1 {}
+.building .tab .tab-museum1 .museum1 img {width: 80.555%; margin-left: 9.722%;}
+.building .tab .tab-museum1 .museum1 h3 {font-size: 14px; font-weight: 600; margin-left: 9.722%; margin-top:10px; margin-bottom:15px;}
+.building .tab .tab-museum1 .museum1 p {font-size: 13px; line-height: 20px; color:#666; margin-left: 9.722%;}
+.building .tab .tab-museum1 .museum1 em {display:block; font-size:13px; margin-left: 9.722%; margin-bottom:34px;}
+.building .tab .tab-museum1 .museum1 em::before {display:block; content:""; clear:both; width:37.5%; height: 2px; background: #666; margin:10px 0;}
+
+/* botta */
+.building .botta {position: relative; overflow:hidden;}
+.building .botta blockquote {position: absolute; left:5.555%; z-index: 10; font-size: 14px; font-weight: 600; line-height: 20px; margin-top:70px;}
+.building .botta .picture {position: relative; left:27.777%;}
+.building .botta .picture img {width: 66.666%;}
+.building .botta .picture .picture-text {width: 45.277%; height: 75px; background: #fff; position: absolute; bottom:0;}
+.building .botta .picture .picture-text span {display:block; font-size:13px; color:#666; margin-top:5px; margin-bottom:15px;}
+.building .botta .picture .picture-text strong {display:block; font-size: 14px; font-weight: 600;}
+.building .botta .picture .picture-text em {display:block; font-size: 13px; font-weight: 600;}
+
+/* since */
+.building .since {margin-top:34px; margin-left:5.555%; margin-right:5.555%; }
+.building .since span {font-size: 13px; color:#424242;}
+.building .since h3 {font-size: 20px; color:#333; line-height: 30px; font-weight: 600; margin:20px 0;}
+.building .since h3::after {content:""; display:block; clear:both; width: 100%; height: 1px; background: #898989; margin-top:15px;}
+.building .since p {font-size: 13px; color:#666; margin-bottom:25px;}
+.building .since p:last-child::after {content:""; display:block; clear:both; width: 100%; height: 1px; background: #898989; margin-top:20px;}
+
+/* tour */
+.building .tour {overflow: hidden;}
+.building .tour .tour-slide {background:url(../images/content/m-tour-bg.jpg) 0 100% no-repeat;}
+.building .tour .tour-slide .swiper-wrapper {}
+.building .tour .tour-slide .swiper-wrapper .swiper-slide { color:#fff;}
+.building .tour .tour-slide .swiper-wrapper .swiper-slide img {width: 88.888%; margin-left:5.555%;} 
+.building .tour .tour-slide .swiper-wrapper .swiper-slide h3 {margin-top:20px; color:#fff; font-size: 20px; font-weight: 600;margin-left:5.555%;}
+.building .tour .tour-slide .swiper-wrapper .swiper-slide strong {display:block; font-size: 14px; font-weight: 600; margin-left:5.555%;}
+.building .tour .tour-slide .swiper-wrapper .swiper-slide p {font-size: 13px; margin-top:21px; margin-bottom:10px;margin-left:5.555%;}

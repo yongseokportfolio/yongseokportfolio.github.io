@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8" /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title> Leeum </title>
+  
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"  >
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="stylesheet" href="css/common.css" >  
+  <link rel="stylesheet" href="css/main.css" >
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/main.js"></script>
+  <!--[if lt IE 9]>  <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script> <![endif]-->
+  <!--[if lt IE 9]>  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+
+ </head>   
+ <body>
+ <div id="skipNav"><a href="#contnet">본문바로가기</a></div>
+ <div id="warp">
+    <header id="header">
+        <div class="inner">
+            <h1><a href="index.html"><img src="images/common/logo.png" alt="Leeum"></a></h1>
+            <div class="right-wrap">
+                <ul class="cf">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Subscribe</a></li>
+                    <li>
+                        <ul class="language">
+                            <li>
+                                <form action="#" method="POST">
+                                    <select id="lan" title="언어를 선택하세요" value="언어를 선택하세요">
+                                        <option value="korean">한국어<i class="fas fa-angle-down"></i></option>
+                                        <option value="english">English</option>
+                                    </select>
+                                    </form>         
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><img src="images/common/search.png" alt="search">
+                        <fieldset>
+                            <legend>search</legend>
+                            <p>
+                                <input type="search" id="search" name="search" value="" list="item">
+                                <datalist id="item">
+                                    <option value="html"></option>
+                                    <option value="css"></option>
+                                    <option value="javascript"></option>
+                                </datalist>   
+                            </p>
+                        </fieldset>
+                    </a></li>
+                </ul>
+            </div>
+            <nav id="nav">
+                <ul id="gnb" class="cf">
+                    <li>
+                        <a href="#">방문안내</a>
+                        <ul>
+                            <li><a href="visit_guide.html">관람안내</a></li>
+                            <li><a href="#">오시는길</a></li>
+                            <li><a href="#">편의시설</a></li>
+                            <li><a href="#">새소식</a></li>
+                            <li><a href="#">멤버십안내</a></li>
+                            <li><a href="#">관람 FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="building.html">전시</a>
+                        <ul>
+                            <li><a href="#">현재전시</a></li>
+                            <li><a href="#">예정전시</a></li>
+                            <li><a href="#">지난전시</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">교육</a>
+                        <ul>
+                            <li><a href="#">현재 프로그램</a></li>
+                            <li><a href="#">예정 프로그램</a></li>
+                            <li><a href="#">지난 프로그램</a></li>
+                            <li><a href="#">프로그램 소식</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">소장품</a>
+                        <ul>
+                            <li><a href="#">고미술</a></li>
+                            <li><a href="#">현대미술</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="introduce.html">미술관 소개</a>
+                        <ul>
+                            <li><a href="#">Leeum 소개</a></li>
+                            <li><a href="#">건축</a></li>
+                            <li><a href="#">보존연구</a></li>
+                            <li><a href="#">자료</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- //header -->
+    <section id="mainVisual">
+        <ul class="main-banner">
+            <li>
+                <div class="main-text">
+                    <strong>The time-line that's transcending<br>the generations</strong>
+                    <p>시대를 초월하는 타임라인</p>
+                </div>
+                <div class="main-more">
+                    <p><a href="#">자세히보기 <span class="lnr lnr-arrow-right"></span></a></p>
+                </div>
+            </li>
+            <li>
+                <div class="main-text">
+                    <strong>Leeum, Samsung Museum of Art,<br>It is a sympathy with the best works of art.</strong>
+                    <p>삼성미술관 Leeum,<br>살아있는 예술 작품과의 교감입니다.</p>
+                </div>
+                <div class="main-more">
+                <p><a href="#">자세히보기 <span class="lnr lnr-arrow-right"></span></a></p>
+            </div>
+            </li>
+            <li>
+                <div class="main-text">
+                    <strong>Representing the beauty of Korea,<br> Leeum</strong>
+                    <p>한국의 아름다움을 대표하는 리움 뮤지엄</p>
+                </div>
+                <div class="main-more">
+                    <p><a href="#">자세히보기 <span class="lnr lnr-arrow-right"></span></a></p>
+                </div>
+            </li>
+        </ul>
+        <ul class="btn-wrap">
+            <li class="btn prev"><a href="#"><span class="lnr lnr-chevron-left"></span></a></li>
+            <li class="btn next"><a href="#"><span class="lnr lnr-chevron-right"></span></a></li>
+        </ul>
+    </section>
+    <!-- //mainVisual -->
+    <div id="container">
+        <section id="content" class="main-content">
+            <div class="exhibition">
+                <div class="inner">
+                    <h2>전시</h2>
+                    <ul class="display cf">
+                        <li>
+                            <a href="#"><img src="images/main/exhibition1.png" alt="올라퍼 엘리이슨 세상의 모든 가능성"></a>
+                            <h3>올라퍼 엘리이슨 세상의 모든 가능성</h3>
+                            <em>2016.9.28 ~ 2017.2.26</em>
+                            <div class="like">
+                                <a href="#">
+                                    <i class="fas fa-heart"></i>
+                                    <p>10</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/main/exhibition2.png" alt="산수, 이상향의 재현"></a>
+                            <h3>산수, 이상향의 재현</h3>
+                            <em>2016.8.9 ~ 2017.2.12</em>
+                            <div class="like">
+                                <a href="#">
+                                    <i class="fas fa-heart"></i>
+                                    <p>12</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/main/exhibition3.png" alt="분청사기, 무늬에 깃든 마음"></a>
+                            <h3>분청사기, 무늬에 깃든 마음</h3>
+                            <em>2016.3.22 ~ 2016.8.7</em>
+                            <div class="like">
+                                <a href="#">
+                                    <i class="fas fa-heart"></i>
+                                    <p>20</p>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/main/exhibition4.png" alt="아트스펙트럼 2016"></a>
+                            <h3>아트스펙트럼 2016</h3>
+                            <em>2016.5.12 ~ 2016.8.7</em>
+                            <div class="like">
+                                <a href="#">
+                                    <i class="fas fa-heart"></i>
+                                    <p>17</p>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="schedule">
+                <div class="inner">
+                    <h2>2024<br>전시일정</h2>
+                    <ul>
+                        <li>
+                            <strong>앤디 워홀 팩토리</strong>
+                            <em>24.03.15-06.10</em>
+                        </li>
+                        <li>
+                            <strong>국제현대사진전</strong>
+                            <em>24.07.05-09.30</em>
+                        </li>
+                        <li>
+                            <strong>미래의 기억들</strong>
+                            <em>24.10.01-12.30</em>
+                        </li>
+                        <li>
+                            <strong>교감</strong>
+                            <em>24.12.31</em>
+                        </li>
+                    </ul>
+                </div>    
+            </div>
+            <div class="collection">
+                <div class="inner">
+                    <h2>소장품</h2>
+                    <ul class="cf">
+                        <li>
+                            <img src="images/main/collection1.png" alt="고미술">
+                            <div class="opacity">
+                                <h3>고미술</h3>
+                                <p class="more"><a href="#">자세히보기 <span class="lnr lnr-arrow-right"></span></a></p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="images/main/collection2.png" alt="현대미술">
+                            <div class="opacity">
+                                <h3>현대미술</h3>
+                                <p class="more"><a href="#">자세히보기 <span class="lnr lnr-arrow-right"></span></a></p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="education">
+                <div class="inner">
+                    <div class="winter kids1 cf">
+                        <div class="text">
+                            <h2>EDUCATION</h2>
+                            <strong>[리움키즈] 2020 겨울</strong>
+                            <em>리움 전시장</em>
+                            <em>초등학교 3~5학년 (만 9~11세)</em>
+                            <p>리움 키즈는 어린이를 위한 미술감상 교육 프로그램으로<br>작품 감상과 다양한 연계활동을 통해 생각의 유연성과<br>열린 감성을 기르는데 초점을 두고 있습니다.</p>
+                        </div>
+                        <div class="img">
+                            <img src="images/main/education1.png" alt="이미지">
+                            <ul>
+                                <li>
+                                    <img src="images/main/education2.png" alt="미술 사건 수사대">
+                                    <em>미술 사건 수사대</em>
+                                    <p>사건을 추리하듯 감상하며<br>상상력을 키우고 작품에<br>새롭게 접근해봅니다.</p>
+                                </li>
+                                <li>
+                                    <img src="images/main/education3.png" alt="그림을 품은 도자기">
+                                    <em>그림을 품은 도자기</em>
+                                    <p>도자기에 그려진 문양들을<br>탐색하고 현대미술가가<br>표현한 도자기도 함께<br>감상해봅니다.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="winter kids2">
+                        <div class="text">
+                            <h2></h2>
+                            <strong></strong>
+                            <em></em>
+                            <em></em>
+                            <p></p>
+                        </div>
+                        <div class="img">
+                            <img src="" alt="">
+                            <ul>
+                                <li>
+                                    <img src="" alt="">
+                                    <em></em>
+                                    <p></p>
+                                </li>
+                                <li>
+                                    <img src="" alt="">
+                                    <em></em>
+                                    <p></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="winter kids3">
+                        <div class="text">
+                            <h2></h2>
+                            <strong></strong>
+                            <em></em>
+                            <em></em>
+                            <p></p>
+                        </div>
+                        <div class="img">
+                            <img src="" alt="">
+                            <ul>
+                                <li>
+                                    <img src="" alt="">
+                                    <em></em>
+                                    <p></p>
+                                </li>
+                                <li>
+                                    <img src="" alt="">
+                                    <em></em>
+                                    <p></p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="btn-wrap">
+                        <li class="btn prev"><a href="#"><span class="lnr lnr-chevron-left"></span></a></li>
+                        <li class="btn next"><a href="#"><span class="lnr lnr-chevron-right"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="new-faq">
+                <div class="inner cf">
+                    <div class="notice new">
+                        <h4>새소식</h4>
+                        <ul>
+                            <li>
+                                <strong>[공지] 미술관 임시 휴관 안내 (2.25 ~ )</strong>
+                                <span>2024.02.24</span>
+                            </li>
+                            <li>
+                                <strong>[공지] 도슨트 전시해설 프로그램 잠정 중단 (신종 코로나...</strong>
+                                <span>2024.01.29</span>
+                            </li>
+                        </ul>
+                        <span class="more"><a href="#">+</a></span>
+                    </div>
+                    <div class="notice faq">
+                        <h4>관람 FAQ</h4>
+                        <ul>
+                            <li>
+                                <strong>전시장내 소지품 반입이 가능한가요?</strong>
+                                <a href="#"><span>답변보기</span></a>
+                            </li>
+                            <li>
+                                <strong>관람시간은 어떻게 되나요?</strong>
+                                <a href="#"><span>답변보기</span></a>
+                            </li>
+                            <li>
+                                <strong>휴관일은 언제 입니까?</strong>
+                                <a href="#"><span>답변보기</span></a>
+                            </li>
+                            <li>
+                                <strong>경로우대 국가유공자 장애인 할인이 되나요?</strong>
+                                <a href="#"><span>답변보기</span></a>
+                            </li>
+                        </ul>
+                        <span class="more"><a href="#">+</a></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- content -->
+    <footer id="footer">
+        <div class="inner">
+            <div class="under-logo">
+                <h1><a href="index.html"><img src="images/common/logo_snow.png" alt="Leeum"></a></h1>
+                <p>Copyright Leeum 2011, All Rights Reserved.</p>
+            </div>
+            <div class="under-text">
+                <address>Leeum, Samsung Museum of Art 60-16 Itaewon-ro 55-gil, Yongsan-gu, Seoul, Korea 04348</address>
+                <p>Lee____Museum</p>
+                <ul class="sns cf">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+ </div> 
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
