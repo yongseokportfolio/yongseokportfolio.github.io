@@ -1,25 +1,12 @@
 @charset "utf-8";
 
 #wrap{width: 100%; min-width: 1920px; position: absolute; height: 100%; background:url(../images/main/main-bg.jpg) 0 0 no-repeat; overflow:hidden;}
-h1{position: absolute; left: 50px; top: 30px;}
-.menu {  cursor: pointer;  margin: 0 auto;  position: absolute;  width: 40px;  height: 40px; right: 50px; top: 50px;z-index: 100;}
-.menu-global {  -webkit-backface-visibility: hidden;  backface-visibility: hidden;  position: absolute;  left: 0;   width: 100%;  -webkit-transition: 0.35s;  transition: 0.55s;}
-.menu-top {  top: 0;  border-top: 7px solid #f82323; }
-.menu-middle {  top: 18px;  border-top: 7px solid #2e6698;}
-.menu-bottom {  top: 36px;  border-top: 7px solid #6ac00c;}
-.menu-top-click {  -webkit-backface-visibility: hidden; backface-visibility: hidden;  top: 15px;  -webkit-transform: rotate(50deg); transform: rotate(50deg);-webkit-transition: 0.35s 0.3s;  transition: 0.35s 0.3s;}
-.menu-middle-click {  opacity: 0;}
-.menu-bottom-click {  -webkit-backface-visibility: hidden; backface-visibility: hidden;  top: 15px;
-  -webkit-transform: rotate(-410deg); transform: rotate(-410deg);  -webkit-transition: 0.35s 0.3s;
-  transition: 0.35s 0.3s; }
 
 .inner-wrap{width: 100%; height: 100%; background:url(../images/main/portfolio.png) 50% 50% no-repeat; position: absolute;}
 .inner-wrap .text {position: absolute; left: 903px; top: 189px; }
 .inner-wrap .text img {}
 .inner-wrap .text h2 {font-size: 40px; color:#1c1c1c; margin:28px 0; font-weight: 600;}
 .inner-wrap .text em {font-size: 18px; display:block; color:#000;}
-/* .inner-wrap .text strong {font-size: 18px; display:block; color:#000; margin:28px 0;}
-.inner-wrap .text strong > span{text-decoration-color: #fffa9698; text-decoration-style: solid; text-decoration-thickness: 0.1em; background-image: linear-gradient(to top, #fffa9698 40%, transparent 0);} */
 .inner-wrap .text p {font-size: 18px; color:#000; margin-top: 40px;}
 .inner-wrap .text h3 {font-size: 18px; font-weight: 600; color:#1c1c1c; margin-top:38px;}
 
@@ -29,12 +16,3 @@ h1{position: absolute; left: 50px; top: 30px;}
 .inner-wrap .paint.blue {left: 1334px; top: 43px;}
 .inner-wrap .paint.brown {left: 1500px; top: 550px;}
 .inner-wrap .paint.purple {left: -148px; top: 495px;}
-
-#nav{width: 100%; position: fixed; height: 100%; background:url(../images/main/menu-bg.jpg) 50% 60% no-repeat; display: none;}
-#nav.on{display: block;}
-#gnb{width: 60%; margin: auto; padding-top: 100px;}
-#gnb li{margin-bottom: 30px;}
-#gnb li a{font-size: 80px; text-align: center; display: block;}
-#gnb li a:hover {background: url(../images/main/menu-hover.png) 50% 50% no-repeat;}
-#gnb li:nth-child(1) a:hover {background: url(../images/main/menu-hover1.png) 50% 50% no-repeat;}
-#gnb li:nth-child(4) a:hover {background: url(../images/main/menu-hover1.png) 50% 50% no-repeat;}

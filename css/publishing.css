@@ -1,0 +1,29 @@
+@charset "utf-8";
+#wrap{background: url(/images/webDesign/webDesign-bg2.png) 0 0 no-repeat; background-size: cover;}
+
+#wrap .nav{position: absolute; left: 50%; top: 93%; transform:translate(-50%, -50%); }
+#wrap .nav li{width: 15px; height: 15px; border-radius: 50%; border: 2px solid #333; margin-right: 15px; float: left; cursor: pointer;}
+#wrap .nav li.on{background: #333; box-shadow: 5px 5px 3px #666 }
+
+#webContent{position: absolute; left: 0; top: 0;width: 10000px; height: 100%;}
+.con-box{width: 1920px; height: 100vh ; position: relative;float: left;}
+.con-box .inner{
+    width: 1400px; width: 1400px; height: 700px; position: absolute; top: 52%; left: 50%; background: #e5e3eeea; border-radius: 30px; box-shadow: 5px 5px 10px; color: #999; transform: translate(-50%, -50%) 
+}
+
+.con-box .inner {display:flex; justify-content: space-around; align-items: center; }
+.con-box .inner .inner-text {width: 300px; display:flex; flex-direction: column; justify-content: space-between; height: 400px;}
+.con-box .inner .inner-text h2 {font-size: 40px;}
+.con-box .inner .inner-text p {font-size: 20px; color:#333;}
+.con-box .inner .inner-text strong {color: rgb(92, 92, 92);}
+.con-box .inner .inner-text .btn{display: flex;justify-content: flex-end;}
+.con-box .inner .inner-text a {display:inline-block; text-align: center; border: 1px solid #333; width: 100px; height:30px; line-height:2; border-radius: 20px;}
+.con-box .inner .inner-text a:hover {background-color: #333; color:snow}
+.con-box .inner .inner-text a:last-child {margin-left:20px;}
+
+.con-box .inner .inner-img {width: 900px;}
+.con-box .inner .inner-img .viewport {position: relative; bottom: 0; left: 0; right: 0; top: 0; border-radius: 10px; background: #333;}
+.con-box .inner .inner-img .viewport:before {content: ""; display: block; padding-top: 60%;}
+/* 스크린 오버 */
+.con-box .inner .inner-img .viewport {transition: background-position 3s ease; background-position: 0 0; background-size: 100% auto; overflow: hidden; cursor: pointer;}
+.con-box .inner  .inner-img .viewport:hover {background-position: 0 100%;}
